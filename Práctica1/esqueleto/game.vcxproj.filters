@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="gameConfig.cpp" />
+    <ClCompile Include="host\FolderWatcher-win.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\GlutHost.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\GlutHostMain.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="host\ParticlePresets.cpp">
+      <Filter>host</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="params.cpp" />
+    <ClCompile Include="SeekSteering.cpp">
+      <Filter>SteeringBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="ArriveSteering.cpp">
+      <Filter>SteeringBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignSteering.cpp">
+      <Filter>SteeringBehaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignToMovement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="character.h" />
+    <ClInclude Include="gameConfig.h" />
+    <ClInclude Include="host\FolderWatcher-win.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\GlutHost.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="host\ParticlePresets.h">
+      <Filter>host</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="params.h" />
+    <ClInclude Include="SeekSteering.h">
+      <Filter>SteeringBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="ArriveSteering.h">
+      <Filter>SteeringBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignSteering.h">
+      <Filter>SteeringBehaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignToMovement.h">
+      <Filter>SteeringBehaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="host">
+      <UniqueIdentifier>{87717a51-4516-4c06-a1de-c6b89a5c16e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sample">
+      <UniqueIdentifier>{dafee91e-18b1-4dd7-a488-726565484f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SteeringBehaviors">
+      <UniqueIdentifier>{fa4e8563-c153-4f73-8654-b5049458330e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sample\test.lua">
+      <Filter>sample</Filter>
+    </None>
+  </ItemGroup>
+</Project>

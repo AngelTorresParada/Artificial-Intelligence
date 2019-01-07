@@ -1,0 +1,5 @@
+﻿  AlignToMovement.cpp
+AlignToMovement.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  game.vcxproj -> C:\Users\angel.torres\Downloads\motor_practicas\practicas\esqueleto\.\bin\Win32\Debug\game.exe
+  ..\moai\3rdparty\glut-3.7.6-bin\glut32.dll
+  1 File(s) copied
